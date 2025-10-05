@@ -1,3 +1,4 @@
+'''O(logn+1)'''
 def binary_search_recursive(data, target, low, high):
     """ Return True if target is found in indicated portion of Python list.
 

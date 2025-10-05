@@ -1,3 +1,5 @@
+
+"""O(2^c - 1) polynomial time"""
 def draw_line(tick_length, tick_label=''):
     """Draw one line wiht a given tick length (followed by optional label)"""
     line = '-' * tick_length
