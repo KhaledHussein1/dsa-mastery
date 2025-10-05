@@ -4,6 +4,7 @@ import time
 #sys.setrecursionlimit(2000)
 
 def factorial(n):
+    """O(n) because there are n+1 activations"""
     if n == 0:
         return 1
     else:
