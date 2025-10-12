@@ -6,7 +6,7 @@ def power(x,n):
     else:
         return x * power(x, n-1)
 
-# O(logn)
+# O(log n)
 def power_improved(x,n):
     if n == 0:
         return 1
